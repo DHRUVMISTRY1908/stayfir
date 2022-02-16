@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.body{
+    height: 752px;
+}
+
+.navbar{
+    display: flex;
+    height: 7vh;
+    
+    
+    
+}
+.titletext{
+    margin-left: 20px;
+    margin-top: 9px;
+    margin-right: 20px;
+    color: white;
+}
+.navlist{
+    display: flex;
+    margin-left: auto;
+   
+    
+}
+@keyframes hehe{
+    from{margin: 3px;}
+    to{margin: 10px;}
+}
+.navlist ul{
+    margin: 10px;
+    text-decoration: none;
+    padding: 18px;
+    text-transform: uppercase;
+    animation-name:hehe;
+    animation-duration: 2s;    
+}
+.navlist ul a{
+    text-decoration: none;
+}
+.navlist ul a{
+    color: white;
+}
+
+.navlist ul a:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+.getstarted:hover{
+    cursor: pointer;
+    background-color: orangered;
+}
+.logo{
+    margin-top: 4px;
+    margin-left: 9px;
+}
+.imagelogo{
+    height: 45px;
+    width: 45px;
+    border-radius: 30px;
+}
+.form{
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+}
+.form h1{
+    color: white;
+    font-size: 40px;
+    
+}
+
+input{
+    padding: 7px;
+    border-radius: 20px;
+    text-align: inherit;
+}
+
+.concern{
+    height: 40px;
+    
+}
+.enter{
+    margin: 10px;
+}
+.submit{
+    justify-content: center;
+    padding: 10px;
+    margin-top: 96px;
+    border-radius: 11px;
+    width: 92px;
+   
+
+}
+@keyframes example{
+    from{background-color: coral;}
+    to{background-color: white;}
+}
+.submit:hover{
+    background-color: coral;
+    cursor: pointer;
+    color: white;
+    animation-name: example;
+    animation-duration: 4s;
+}
+.foot{
+    background-color: darkgrey;
+    color: black;
+    text-align: center;
+    margin-top: 145px;
+}
+.active{
+    color: white;
+}

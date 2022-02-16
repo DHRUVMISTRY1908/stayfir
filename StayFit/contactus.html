@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="contactus.css" rel="stylesheet">
+    <title>StayFit</title>
+</head>
+
+<body style="background-image: linear-gradient(coral,white); height: 752px;">
+    <nav class="navbar">
+        <div class="logo">
+            <img class="imagelogo" src="th.jpg">
+        </div>
+        <h2 class="titletext">StayFit</h3>
+            <div class="navlist">
+
+                <ul><a href="stayfit.html">Home</a></ul>
+                <ul><a href="shop.html">Shop</a></ul>
+                <ul><a href="about.html">About</a></ul>
+                
+                <ul><a class="active" href="contactus.html">Contact us</a></ul>
+
+            </div>
+
+    </nav>
+    <div class="form">
+        <div class="title">
+            <h1>CONTACT US</h1>
+            <br>
+        </div>
+
+        <form class="input">
+            <div class="enter name">
+                <label for="name">NAME: </label>
+                <input type="text" id="name" placeholder="enter your name">
+            </div>
+
+            <br>
+
+            <div class="enter email">
+                <label for="email">EMAIL: </label>
+                <input type="text" id="email" placeholder="enter your email">
+            </div>
+
+            <br>
+            <div class="enter gender">
+                <label for="gender">GENDER: </label>
+                <input type="checkbox" name="gender" value="male">
+                <label for="gender">male</label>
+                <input type="checkbox" name="gender" value="female">
+                <label for="gender">female</label>
+            </div>
+            <br>
+            <div class="enter concern">
+                <input type="text" id="concern" placeholder="enter your concern" style="width: 350px;height: 100px;">
+            </div>
+            <div class="submut">
+                <button class="submit" id="button">Submit</button>
+            </div>
+
+
+
+    </div>
+    <footer class="foot">
+        <p>Copyright issued by StayFit <a>@StayFit</a></p>
+    </footer>
+
+    <script>
+        var submit= document.getElementById('button');
+        submit.addEventListener("click",function(){
+            alert(location.hostname+" your form is submitted succesfully!!")
+
+        });
+    </script>
+</body>
+
+</html>
